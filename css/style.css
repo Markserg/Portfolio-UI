@@ -213,3 +213,29 @@ body {
 	font-size: 20px;
 	color: #8695a4;
 }
+
+
+/* Footer */
+.footer{
+	min-height: 180px;
+}
+
+.footer__inner {
+	text-align: center;
+}
+
+.footer__social {
+display: flex;
+justify-content: center;
+gap: 0 35px;
+margin-bottom: 35px;
+
+}
+
+.footer__social img {
+transition: transform 0.3s;
+}
+
+.footer__social img:hover{
+	transform: translate(-2px, -2px);
+}
